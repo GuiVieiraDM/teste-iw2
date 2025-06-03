@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robust Construtora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="/assets/logo.svg" alt="">
+      <nav>
+        <ul>
+          <li data-id="sobre-nos">
+            <a href="#">Sobre Nós</a>
+            <i class="icon-plus main-icon"></i>
+            <i class="icon-cancel hover-icon"></i>
+            <div class="submenu">
+              <a href="#">História</a>
+              <a href="#">Equipe</a>
+            </div>
+          </li>
+          <li data-id="empreendimentos">
+            <a href="#">Empreendimentos</a>
+            <i class="icon-plus main-icon"></i>
+            <i class="icon-cancel hover-icon"></i>
+            <div class="submenu">
+              <a href="#">Residenciais</a>
+              <a href="#">Comerciais</a>
+            </div>
+          </li>
+          <li data-id="fale-conosco">
+            <a href="#">Fale conosco</a>
+            <i class="icon-plus main-icon"></i>
+            <i class="icon-cancel hover-icon"></i>
+            <div class="submenu">
+              <a href="#">Atendimento</a>
+              <a href="#">Suporte</a>
+            </div>
+          </li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="input-icon-wrapper">
+        <i class="icon-search"></i>
+        <input id="searchInput" type="text" placeholder="">
+      </div>
+      <div class="icons-social">
+        <i class="icon-social-facebook-solid"></i>
+        <i class="icon-social-instagram"></i>
+        <i class="icon-social-youtube"></i>
+      </div>
+      <span class="menu-icon"><i class="icon-menu"></i></span>
+    </header>
+    <section class="hero">
+      <div class="hero-wrapper">
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <p>Venha morar no paraíso</p>
+            <h1>O maior empreendimento da cidade com clube privado.</h1>
+            <button class="cta-button">
+              Conhecer 
+              <div class="icon-wrapper">
+                <div class="icon-inner"><i class="icon-arrow"></i></div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="hero-navigation">
+          <div class="navigation-wrapper">
+            <button class="nav-button heroPrev"><i class="icon-arrow"></i></button>
+            <p>01/10</p>
+            <button class="nav-button heroNext"><i class="icon-arrow"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="highlights">
+      <h1>Empreendimentos em <span>destaque</span></h1>
+      <div class="type-selectors">
+        <div class="teste">
+          <button class="type-selectors-button">
+            Lançamentos 
+            <div class="icon-wrapper">
+              <div class="icon-selected"><i class="icon-check"></i></div>
+            </div>
+          </button>
+          <button class="type-selectors-button">
+            Futuros 
+            <div class="icon-wrapper">
+              <div class="icon-selected"><i class="icon-check"></i></div>
+            </div>
+          </button>
+          <button class="type-selectors-button">
+            Em obra
+            <div class="icon-wrapper">
+              <div class="icon-selected"><i class="icon-check"></i></div>
+            </div>
+          </button>
+          <button class="type-selectors-button">
+            Contratados 
+            <div class="icon-wrapper">
+              <div class="icon-selected"><i class="icon-check"></i></div>
+            </div>
+          </button>
+        </div>
+        <div class="highlights-navigation">
+          <button class="hightlights-cta-button">
+            Ver todos 
+            <div class="icon-wrapper">
+              <div class="icon-inner"><i class="icon-arrow"></i></div>
+            </div>
+          </button>
+          <div class="highlights-navigation-wrapper">
+            <button class="nav-button highlights-prev"><i class="icon-arrow"></i></button>
+            <p>01/10</p>
+            <button class="nav-button highlights-next"><i class="icon-arrow"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="cards-container"></div>
+    </section>
+    <section class="testimony">
+      <div class="client-testimony-wrapper">
+        <h2>Depoimento de <span class="text-highlighted">clientes</span></h2>
+        <div class="client-card-wrapper"></div>
+        <div class="testimony-navigation-wrapper">
+          <button class="nav-button testimony-prev"><i class="icon-arrow"></i></button>
+          <p>01/10</p>
+          <button class="nav-button testimony-next"><i class="icon-arrow"></i></button>
+        </div>
+      </div>
+    </section>
+    <section class="partnerships">
+      <div class="client-partnerships-wrapper">
+        <div class="partnerships-header-wrapper">
+          <h2>Parcerias & Serviços Indicados</h2>
+          <div class="partnerships-navigation-wrapper">
+            <button class="nav-button partnerships-prev"><i class="icon-arrow"></i></button>
+            <p>01/10</p>
+            <button class="nav-button partnerships-next"><i class="icon-arrow"></i></button>
+          </div>
+        </div>
+        <div class="partners-card-wrapper"></div>
+      </div>
+    </section>
+    <section class="sell-landscape">
+      <div class="client-sell-landscape-wrapper">
+        <div class="sell-landscape-content-wrapper">
+          <h2>Está vendendo um terreno?</h2>
+          <p>Envie os dados do terreno e dos proprietários.</p>
+          <p>Retornaremos o mais breve possível.</p>
+        </div>
+        <div class="sell-landscape-navigation-wrapper">
+          <button class="sell-landscape-cta-button">
+            Descrever terreno 
+            <div class="icon-wrapper">
+              <div class="icon-inner"><i class="icon-arrow"></i></div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-about">
+        <img src="/assets/logo-light.svg" alt="">
+        <div class="business-info">
+          <p>Razão Social Construtora</p>
+          <p>CNPJ 00.000.000/0000-00</p>
+          <span>Registro 00.000 UF</span>
+        </div>
+        <div>
+          <a>Política de privacidade</a>
+        </div>
+        <div class="footer-icons-social">
+          <i class="icon-social-facebook-solid"></i>
+          <i class="icon-social-instagram"></i>
+          <i class="icon-social-youtube"></i>
+        </div>
+      </div>
+      <div class="footer-address1">
+        <h3>Matriz</h3>
+        <div class="icon-text-wrapper">
+          <i class="icon-map"></i>
+          <p>Rua Nome da rua, 00, Bairro, Cidade, UF<br>CEP 00.000-000</p>
+        </div>
+        <div class="icon-text-wrapper">
+          <i class="icon-whatsapp-2"></i>
+          <p>(00) 99999-9999</p>
+        </div>
+        <div class="icon-text-wrapper">
+          <i class="icon-call"></i>
+          <p>(00) 99999-9999</p>
+        </div>
+        <div class="icon-text-wrapper">
+          <i class="icon-email"></i>
+          <p>relacionamento@construtoradigital.com</p>
+        </div>
+      </div>
+      <div class="footer-address2">
+        <h3>Filial 01</h3>
+        <div class="icon-text-wrapper">
+          <i class="icon-map"></i>
+          <p>Rua Nome da rua, 00, Bairro, Cidade, UF<br>CEP 00.000-000</p>
+        </div>
+        <div class="icon-text-wrapper">
+          <i class="icon-whatsapp-2"></i>
+          <p>(00) 99999-9999</p>
+        </div>
+        <div class="icon-text-wrapper">
+          <i class="icon-call"></i>
+          <p>(00) 99999-9999</p>
+        </div>
+        <div class="icon-text-wrapper">
+          <i class="icon-email"></i>
+          <p>relacionamento@construtoradigital.com</p>
+        </div>
+      </div>
+    </section>
+    <div class="floating-box">
+      <i class="icon-chat"></i>
+      <div>
+        <h3>Falar conosco</h3>
+        <p>Use nossos canais de contato</p>
+      </div>
+      <div class="plus-wrapper">
+        <i class="icon-plus mini-plus"></i>
+      </div>
+    </div>
+  </body>
+</html>
