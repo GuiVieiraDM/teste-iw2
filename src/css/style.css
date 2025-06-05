@@ -497,7 +497,7 @@ nav ul li:focus-within .submenu {
   left: -6.4rem;
   width: 12.8rem;
   height: 12.8rem;
-  z-index: 2;
+  z-index: 1;
 }
 
 .testimony-avatar {
